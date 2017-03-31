@@ -250,7 +250,7 @@ function renderHistogram(ctx, histogram) {
   var valueOffset = 0.75 * histogram.minValue;
   var step = histogram.size.height / (histogram.maxValue - valueOffset);
 
-  var xRelative = base.x;
+  var xRelative = style.base.x;
   for (var index = 0; index < histogram.bars.length; index++) {
     var bar = histogram.bars[index];
     style.background = bar.background;
