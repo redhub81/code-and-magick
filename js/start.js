@@ -74,7 +74,7 @@ var TOTALS_HISTOGRAM_MEMBERS_BAR_STYLE = {
 var HistogramBarType = {
   Player: 1,
   Member: 2
-}
+};
 
 /** Предоставляемые методы.
  ******************************************************************************/
